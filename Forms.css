@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 120vh;
+    box-shadow: 10px 5px 10px 5px rgba(0,0,0,0.15);
+    padding: 50px ;
+    border-radius: 20px;
+}
+.Reft-side h1{
+    font-size: 45px;
+    font-family: "Jost", sans-serif;
+}
+.Reft-side p{
+    font-size: 12px;
+    color: rgb(172, 168, 168);
+}
+.Right-side h1{
+    font-size: 25px;
+    font-family: "Jost", sans-serif;
+}
+.Right-side p{
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    color: rgb(90, 87, 87);
+}
+.Right-side {
+    padding: 0 0 0 30px;
+}
+.input{
+    width: 45vh;
+    height: 45px;
+    padding: 0 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(180, 178, 178, 0.075);
+    border-radius: 10px;
+    font-size: 14px;
+}
+.btn{
+    width: 40vh;
+    height: 45px;
+    border: none;
+    outline: none;
+    background: none;
+    border: 2px solid rgb(80, 83, 255);
+    font-size: 18px;
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(80, 83, 255);
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: rgb(80, 83, 255);
+}
+a:hover{
+    color: coral;
+}
+.Reft-side img{
+    width: 40vh;
+    height: 40vh;
+    object-fit: cover;
+}
